@@ -1,0 +1,104 @@
+#serviceDiv{
+	width:960px;
+	margin:0 auto;
+}
+#left{
+}
+#left img{
+	width:100%;
+	height:auto;
+	border-radius: 15px;
+}
+#left p{
+	font-size: 20px;
+}
+.servicebottomWrap  {
+	padding-top:42px;
+}
+
+.servicebottomWrap #right {
+	float:right;
+	width:50%;
+	box-sizing: border-box;
+	padding-left:40px;
+}
+
+#right img{
+	width:100%;
+	height:auto;
+	border-radius: 15px;
+}
+#right p{
+	padding-top:24px;
+	line-height: 24px;
+	font-size:16px;
+}
+
+#messConnection img{
+	width: 400px;
+	height: 550px;
+}
+#provide{
+	float: left;
+	width:50%;
+	height:auto;
+}
+
+#provide img{
+	width:100%;
+	height:auto;
+}
+
+/*Adding*/
+.servicetopWrap {
+	padding-top:40px;
+}
+
+.servicetopWrap #left {
+	float:left;
+	padding:40px 40px 0;
+	width:50%;
+	box-sizing: border-box;
+}
+
+.servicetopWrap #left p {
+	padding-top:24px;
+	line-height: 24px;
+	font-size:16px;
+}
+
+.servicetopWrap #messConnection {
+	float:right;
+}
+
+
+
+
+@media (min-width: 100px) and (max-width: 992px) { 
+
+	#serviceDiv{
+		width: 100%;
+	}
+
+	#provide{
+		display: none;
+	}
+	.servicetopWrap #messConnection{
+		display: none;
+	}
+	.servicetopWrap #left{
+		width: 100%;
+	}
+	.servicebottomWrap #right{
+		width: 100%;
+		padding-left: 40px;
+		padding-right: 40px;
+	}
+
+}
+
+@media (min-width: 768px) { }
+
+@media (min-width: 992px) {  }
+
+@media (min-width: 1200px) {  }

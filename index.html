@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8"/>
+	<title>FinalProject</title>
+	<script src="script.js"></script>
+	<link rel="stylesheet" type="text/css" href="stylesForHome.css">
+	<link rel="stylesheet" type="text/css" href="stylesForService.css">
+	<link rel="stylesheet" type="text/css" href="stylesForContact.css">
+	<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+
+	<meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+</head>
+<body>
+	<header id="Header">
+		<div class="headerWrap">
+			<h1>Final Project</h1>
+		</div>	
+		<nav>
+			<ul>
+				<li id="welcomePage"><strong>Welcome</strong></li>
+				<li id="servicePage"><strong>Service</strong></li>
+				<li id="contactPage"><strong>Contact</strong></li>
+			</ul>
+		</nav>
+	</header>
+	<section id="welcomeSection">
+		<div id="welcomeDiv">
+			<div class="welcomeWrap clearfix">
+				<div id="welcomeTextDiv">
+					<h1>WE VALUE YOR TIME.</h1>
+					<p>We know you work hard.<br/>But sometimes that is not enough to success.<br/>System can grow your business.<br/>Let us help you to more success.</p>
+				</div>
+				
+				<img class="welcomeTextImg" src="images/smartHome.jpg" alt="smartHome">
+			</div>
+			<div id="welcomeTextDiv2">
+				<h1>
+					Research-Based Growth Strategies
+				</h1>
+				<p>
+					Marketing Solutions provides a full-range of research, planning, branding and advertising services for public, private and nonprofit organizations committed to achieving breakthrough growth.
+				</p>
+				<h1>
+					We build perfect app just for you
+				</h1>
+				<P>
+					We build custom applications that meet your unique needs
+					Our solutions are designed to adapt and grow just as your business does. When off-the-shelf isn’t on the mark, our talented team designs and develops custom applications to solve your most difficult data challenges – apps that can support you well into the future.
+				</P>
+				<h1>
+					Revenue Acceleration Services
+				</h1>
+				<p>
+					Marketing Solutions provides a wide range of strategic, creative and production services, all designed to grow your business. Our service bundle can be integrated as a full-service growth program, or as separate services to meet your specific objectives and budgets. Our core service categories include:
+				</p>
+			</div>
+		</div>
+		<div id="imageBox">
+			<p><img src="images/monitor.jpg" alt="monitor"></p>
+			<p><img src="images/profit.jpg" alt="profit"></p>
+			<p><img src="images/meeting.jpg" alt="meeting"></p>
+		</div>
+	</section>
+	<section id="serviceSection">
+		<div id="serviceDiv">
+			<div class="servicetopWrap clearfix">
+				<div id="left">	
+					<img src="images/solution.jpg" alt="solution">
+					<p>To succeed in today's environment, businesses need to drive operational effectiveness, enable collaboration across business functions and enhance customer service. All this while they harness technology to drive business innovation, create sustainable growth and future-proof their companies. At JIVA, we offer specific services and solutions designed to help growing companies like yours work more productively and profitably.</p>
+				</div>
+				<div id="messConnection"><img src="images/manWithMessConnection.jpg" alt="messConnection"></div>	
+			</div>	
+			<div class="servicebottomWrap clearfix">
+				<div id="right">	
+					<img src="images/update.jpg" alt="update">
+					<p>We've spent years figuring out the best way to handle a support ticket, escalate an issue, or respond after hours. We leave nothing to chance and the results speak for themselves. Our clients receive the highest degree of service because every process is documented and reviewed on a regular basis to ensure proper follow-through and client satisfaction.</p>
+				</div>
+				<div id="provide"><img src="images/provide.jpg" alt="provide"></div>
+			</div>
+		</div>
+	</section>
+	<section id="contactSection">
+		<div id="formCenter">
+			<div class="formWrap">
+			<form id="orderform" 
+			action="http://naver.com" 
+			method="post">
+			
+				<fieldset id="personalInfo">
+					<ul>
+						<li>
+							<label for="fullname">Full Name</label>
+							<input id="fullname" name="fullname" type="text" />
+							<p class="shippingError error" id="fullname_error">* Required field</p>
+						</li>
+						<li>
+							<label for="custphone">Customer Phone Number</label>
+							<input type="tel" name="custphone" id="custphone" placeholder="(123)123-4567">
+							<p class="shippingError error" id="custphone_error">* Required field</p>
+						</li>
+						<li>
+							<label for="email">Email</label>
+							<input id="email" name="email" type="text" />
+							<p class="shippingError error" id="email_error">* Required field</p>
+							<p class="shippingError error" id="emailformat_error">* Invalid email address</p>
+						</li>
+					</ul>
+				</fieldset>
+				<fieldset id="comment">
+					<legend>Comment</legend>
+					<ul>
+						<li>
+							<label for="otherdetails">Comment</label>
+							<textarea name="otherdetails" id="otherdetails" rows="3" placeholder="Comment"></textarea>
+						</li>
+					</ul>
+				</fieldset>
+				<div id="submitandreset" class="clearfix">
+					<span class="text"><input type="reset" name="reset" id="reset" value="Reset"/></span>
+					<span><input type="submit" name="submit" id="submit" value="Submit"/></span>
+				</div>
+
+			</form>
+		</div>
+	</div>			
+</section>
+
+<footer id="Footer">
+	<div class="footerWrap">
+		<ul>
+			<li><a href="#">Home</a></li>
+			<li><a href="#">RSS</a></li>
+			<li><a href="#">Terms</a></li>
+			<li><a href="#">Privacy</a></li>
+			<li><a href="#">Site Map</a></li>
+			<li><a href="#">Contact Us</a></li>
+		</ul>
+		<div class="footerAddress">
+			<p>Copuright c2011 Junyeol LTD</p>
+			<p>100 Donald Street, Winnipeg, Manitoba , R3D 6T2</p>	
+		</div>
+	</div>
+</footer>
+</body>
+</html>
